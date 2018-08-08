@@ -1,4 +1,4 @@
-package cordova-plugin-id-scan;
+package cordova.plugin.idscan;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
