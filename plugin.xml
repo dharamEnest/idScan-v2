@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-id-scan" 
-    version="0.0.1"
-    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+<plugin id="cordova-plugin-id-scan" version="0.0.1" 
+    xmlns="http://apache.org/cordova/ns/plugins/1.0" 
     xmlns:android="http://schemas.android.com/apk/res/android">
     <name>IdScan</name>
     <js-module name="IdScan" src="www/IdScan.js">
@@ -14,11 +13,14 @@
                 <param name="android-package" value="cordova.plugin.idscan.IdScan" />
             </feature>
         </config-file>
-        <config-file parent="/*" target="AndroidManifest.xml" />
+        <config-file parent="/*" target="AndroidManifest.xml">
+            <uses-permission android:name="android.permission.CAMERA" />
+            <uses-feature android:name="android.hardware.camera" android:required="true" />
+            <uses-feature android:name="android.hardware.camera.autofocus" />
+        </config-file>
+
+
         <source-file src="src/android/IdScan.java" target-dir="src/com/IdScan" />
-
-
-
 
     </platform>
 
