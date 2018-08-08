@@ -1,0 +1,27 @@
+{
+  "name": "idScan",
+  "version": "0.0.1",
+  "description": "scan ids from id scan website",
+  "cordova": {
+    "id": "cordova-plugin-id-scan",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dharamEnest/idScan-v2.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "surinder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dharamEnest/idScan-v2/issues"
+  },
+  "homepage": "https://github.com/dharamEnest/idScan-v2#readme"
+}
