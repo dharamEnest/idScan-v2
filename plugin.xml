@@ -15,7 +15,11 @@
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml" />
-        <source-file src="src/android/IdScan.java" target-dir="src/cordova-plugin-id-scan/IdScan" />
+        <source-file src="src/android/IdScan.java" target-dir="src/com/IdScan" />
+
+
+
+
     </platform>
 
     <platform name="ios">
