@@ -27,7 +27,7 @@
 
         
         <framework src="src/android/build-scanner.gradle" custom="true" type="gradleReference" />
-        <source-file src="src/android/sdk/PDF417Scanner.aar" target="app/src/main/libs/PDF417Scanner.aar" />
+        <source-file src="src/android/sdk/PDF417Scanner.aar" target-dir="app/src/main/libs/PDF417Scanner.aar" />
 
         <framework src="com.android.support:support-v4:24.1.1+"/>
 
